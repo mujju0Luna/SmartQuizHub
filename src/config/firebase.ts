@@ -4,12 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDceOzQlv1eetqLxgpL03QezDSQ74-Rrp4",
+  apiKey: "AIzaSyA7r8VEYEm9tcILEtVz-mNdt_jLg5RlT8I",
   authDomain: "quizt1.firebaseapp.com",
   projectId: "quizt1",
-  storageBucket: "quizt1.appspot.com",
-  messagingSenderId: "104884585468630320397",
-  appId: "1:104884585468630320397:web:abcdef123456789"
+  storageBucket: "quizt1.firebasestorage.app",
+  messagingSenderId: "466236222404",
+  appId: "1:466236222404:web:70fc38dd52c0fef3ecd291",
+  measurementId: "G-MBEK2PWRW9"
 };
 
 const app = initializeApp(firebaseConfig);
